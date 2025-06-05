@@ -1,73 +1,62 @@
 # AI Nowcasting Pilot Project (AINPP)
 
-[![WMO Logo](https://community.wmo.int/themes/custom/wmo_bootstrap/logo.svg)](https://wmo.int/)  **A global initiative by the World Meteorological Organization (WMO) to advance severe weather forecasting through Artificial Intelligence.**
+## Project Overview
 
-## Overview
+The **AI Nowcasting Pilot Project (AINPP)** is a global initiative led by the World Meteorological Organization (WMO). Its primary goal is to **accelerate the development and application of effective nowcasting (very short-range forecasting) systems based on Artificial Intelligence (AI)**, especially in developing countries.
 
-The AI Nowcasting Pilot Project (AINPP) represents a pioneering effort to integrate cutting-edge Artificial Intelligence (AI) and Machine Learning (ML) techniques into operational nowcasting systems. Nowcasting, the detailed forecasting of weather for the immediate future (typically 0-6 hours), is critical for issuing timely warnings for high-impact weather events such as severe thunderstorms, heavy precipitation, and flash floods. AINPP aims to accelerate the adoption and operationalization of AI-based nowcasting tools, with a particular focus on enhancing the capabilities of National Meteorological and Hydrological Services (NMHSs), especially in developing countries.
+This project aims to enhance the forecasting of severe weather phenomena, providing more accurate and timely early warnings to save lives and reduce socio-economic losses. The AINPP is aligned with the United Nations' global **"Early Warning for All" (EW4All)** initiative, seeking to strengthen global climate resilience through technological innovation.
 
-This initiative directly supports the [United Nations' Early Warnings for All (EW4All)](https://www.undrr.org/early-warnings-for-all) initiative, striving to ensure that everyone on Earth is protected by early warning systems.
+## Key Objectives of AINPP
 
-## Mission & Objectives
+As described on the ASoftwareLab platform, the main objectives of the project include:
 
-The core mission of AINPP is to **save lives and reduce socio-economic losses** by improving the accuracy, lead time, and accessibility of severe weather forecasts through the application of AI.
+* **Evaluating AI Effectiveness:** To determine the effectiveness of Artificial Intelligence in very short-term weather forecasting.
+* **Implementing Experimental Products:** To deploy experimental AI-driven nowcasting products, with an initial focus on tropical regions.
+* **Establishing Best Practices:** To define and promote best practices for the use of AI in nowcasting.
+* **Promoting Collaboration:** To encourage collaboration between public and private sectors in the field of weather forecasting.
+* **Supporting EW4All:** To actively contribute to the UN's "Early Warning for All" initiative.
+* **Strengthening Resilience:** To advance technological innovation to strengthen climate resilience worldwide.
 
-Key objectives include:
+## How It Works & Technology
 
-* **Evaluating AI Efficacy:** Systematically assess the performance and reliability of various AI algorithms for nowcasting diverse meteorological phenomena.
-* **Operational Deployment:** Facilitate the deployment and testing of experimental AI-driven nowcasting products, initially focusing on tropical regions which are often data-sparse and highly vulnerable.
-* **Best Practices & Standardization:** Develop and disseminate guidelines, best practices, and standards for the ethical and effective use of AI in nowcasting.
-* **Capacity Building:** Enhance the technical capacity of NMHSs to develop, implement, and maintain AI-based nowcasting systems.
-* **Fostering Collaboration:** Promote and strengthen collaboration between public sector meteorological services, academic and research institutions, and private sector innovators.
-* **Technological Advancement:** Drive innovation in AI applications for weather forecasting to build global climate resilience.
+The AINPP nowcasting system utilizes a combination of:
 
-## Features & Technology
+* **Real-time Data:**
+    * Weather radar
+    * Satellite imagery
+* **Machine Learning Algorithms:** To process the data and generate very short-term forecasts of imminent weather events.
 
-AINPP leverages a combination of meteorological data sources and advanced computational techniques:
+## Expected Impact
 
-* **Input Data:**
-    * Real-time weather radar data (e.g., reflectivity, Doppler velocity)
-    * Geostationary and polar-orbiting satellite imagery (e.g., visible, infrared, water vapor channels)
-    * Surface weather observations
-    * Numerical Weather Prediction (NWP) model outputs
-* **Core Technology:**
-    * **Machine Learning Algorithms:** Deep learning models (e.g., Convolutional Neural Networks - CNNs, Recurrent Neural Networks - RNNs, Generative Adversarial Networks - GANs, Transformers) for spatiotemporal forecasting.
-    * **Data Fusion Techniques:** Methods to optimally combine information from diverse data sources.
-    * **High-Performance Computing (HPC):** Utilized for training complex AI models and running operational nowcasting systems.
-* **Output Products:**
-    * Short-term (0-6 hours) probabilistic and deterministic forecasts of precipitation intensity, storm track, lightning potential, and other severe weather parameters.
-    * Visually intuitive forecast products for dissemination to forecasters and end-users.
+The project aims to:
+
+* Provide **timely and early warnings**.
+* **Save lives**.
+* **Reduce socio-economic losses** associated with severe weather events.
 
 ## Target Audience
 
-The primary stakeholders and beneficiaries of the AINPP include:
+The information and outcomes of the AINPP are aimed at:
 
-* **National Meteorological and Hydrological Services (NMHSs):** For operational forecasting and warning dissemination.
-* **Disaster Management Agencies:** For preparedness and response activities.
-* **Academic and Research Institutions:** For advancing scientific understanding and developing new AI methodologies.
-* **Private Sector Weather Companies:** For value-added service development and innovation.
-* **General Public and Vulnerable Communities:** As the ultimate beneficiaries of improved early warnings.
+* **National Meteorological Services (NMSs)**
+* **Academic Institutions**
+* **Industry Leaders**
 
-## Getting Involved / How to Use
+## Context and Relevance
 
-*(This section might need more specific details depending on what the GitHub repository will contain. Below are general suggestions.)*
+The AINPP is presented as a response to the urgent need for more effective early warning systems, leveraging advancements in Artificial Intelligence to improve the forecasting capabilities for extreme weather events, which are becoming more frequent and intense due to climate change.
 
-This repository serves as a central hub for AINPP resources, including:
+---
 
-* **Documentation:** Detailed information on project methodologies, datasets, and AI models.
-* **Code & Models:** (If applicable) Open-source code for AI models, pre-processing tools, and evaluation scripts.
-* **Datasets:** Links to relevant datasets or information on accessing them.
-* **Use Cases & Case Studies:** Examples of AINPP implementation and impact.
-* **Training Materials:** Resources for capacity building and training workshops.
+**Additional Suggestions for the Repository (based on the website content):**
 
-**For Researchers & Developers:**
-* Explore the `docs/` directory for in-depth technical documentation.
-* Check the `src/` or `models/` directory for codebase and model architectures (if provided).
-* Refer to our [Contribution Guidelines](CONTRIBUTING.md) to participate in the development.
+* **Logos:** Include the WMO logo and, if applicable, the logo of the "Early Warning for All" initiative or ASoftwareLab, if it represents the project.
+* **Relevant Links:**
+    * Link to the official WMO page about AINPP (if a more specific one exists).
+    * Link to the "Early Warning for All" initiative.
+* **Visualizations (if available in the repository in the future):**
+    * Examples of forecasts generated by the system.
+    * Diagrams of the AI system architecture.
+* **Contact:** If the repository is a point of contact, add relevant information. The ASoftwareLab page does not provide direct project contact but rather contact for ASoftwareLab.
 
-**For NMHSs & End-Users:**
-* Review the project outcomes and best practice guidelines.
-* Access training materials and deployment guides.
-* Contact the project team for collaboration and support inquiries (see [Contact](#contact)).
-
-## Project Structure (Example)
+This README has been structured exclusively with the information available at [https://asoftwarelab.com/ainpp/](https://asoftwarelab.com/ainpp/).
